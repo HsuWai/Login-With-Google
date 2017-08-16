@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "396758497665",
+    "project_id": "siginsocial"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396758497665:android:363aa6c938ea24b7",
+        "android_client_info": {
+          "package_name": "com.siginsocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396758497665-96mu42p9v2u86f9ujedi43feir7qsbbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siginsocial",
+            "certificate_hash": "12e113b677cd12725e3edeb5c8521493bb1c50cb"
+          }
+        },
+        {
+          "client_id": "396758497665-c0s4i2vvmjm74nuj49nrbvs8qa9kb9em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyF80spbOi1ZfxnFGIHBpHEs1LHkUgeUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
