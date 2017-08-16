@@ -22,12 +22,15 @@ export default class SiginSocial extends Component {
     this._setupGoogleSignin();
   }
 
+  //<GoogleSigninButton style={{width: 120, height: 44}} color={GoogleSigninButton.Color.Light} size={GoogleSigninButton.Size.Icon} onPress={() => { this._signIn(); }}/>
   render() {
     if (!this.state.user) {
       return (
         <View style={styles.container}>
-          <GoogleSigninButton style={{width: 120, height: 44}} color={GoogleSigninButton.Color.Light} size={GoogleSigninButton.Size.Icon} onPress={() => { this._signIn(); }}/>
-         
+          
+          <Icon.Button name="google" backgroundColor="#ff1a1a" onPress={() => { this._signIn(); }}>
+            Login with Google
+          </Icon.Button>
         </View>
       );
     }
