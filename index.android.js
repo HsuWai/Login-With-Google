@@ -28,8 +28,8 @@ export default class SiginSocial extends Component {
       return (
         <View style={styles.container}>
           
-          <Icon.Button name="google" backgroundColor="#ff1a1a" onPress={() => { this._signIn(); }}>
-            Login with Google
+          <Icon.Button name="google" backgroundColor="#DD4B39" onPress={() => { this._signIn(); }}>
+            Sig in with Google
           </Icon.Button>
         </View>
       );
